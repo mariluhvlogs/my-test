@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EDEDED"> <!-- Fundo cinza claro -->
+</LinearLayout>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFD700" <!-- Amarelo -->
+    android:gravity="center"
+    android:text="Última Pontuação:"
+    android:textColor="#FFFFF"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:padding="8dp" />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFD700" <!-- Amarelo -->
+    android:gravity="center"
+    android:text="75"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:textSize="32sp"
+    android:padding="8dp" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_marginTop="16dp">
+
+<!-- Título -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8B0000" <!-- Vermelho -->
+android:gravity="center"
+android:text="Pontos feitos hoje:"
+android:textColor="#FFFFFF"
+android:textStyle="bold"
+android:textSize="18sp"
+android:padding="8dp" />
+
+<!-- Valor -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8B0000" <!-- Vermelho -->
+android:gravity="center"
+android:text="570"
+android:textColor="#FFFFFF"
+android:textStyle="bold"
+android:textSize="32sp"
+android:padding="8dp" />
+</LinearLayout>
+
